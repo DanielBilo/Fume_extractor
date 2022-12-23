@@ -1,0 +1,1835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Daniel bilodeau\OneDrive\Documents\Projects\Fume_extractor\Ki_PCB\Ki_PCB.kicad_sch</source>
+    <date>2022-11-24 8:00:17 PM</date>
+    <tool>Eeschema (6.0.5)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Ki_PCB.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/PWM_generation/" tstamps="/d0cbe6c3-ddca-405e-bd7e-804b30aab2db/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PWM_generation.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Charging/" tstamps="/9ab53ca4-c94c-4c0f-9710-20b56a11033f/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Charging.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Battery_protections/" tstamps="/a43c876c-93ca-4457-bd54-0a8c2951e964/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Battery_protections.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/12V Boost converter/" tstamps="/58f11461-4943-4ae3-b4d8-49e23e57c963/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>boost_converter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>Green</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ki_PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0684d353-1f0a-4a9e-a897-e79b71ebe9fb</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>0039301020</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/ps/PS-5556-001.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/molex/0039301020/561078?s=N4IgTCBcDaIMwE44AYCMyzJAXQL5A</field>
+        <field name="Part number">0039301020</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/molex/0039301020/561078?s=N4IgTCBcDaIMwE44AYCMyzJAXQL5A"/>
+      <property name="Part number" value="0039301020"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ki_PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b94f62d9-26b2-4dfb-81c0-623ccbd3d801</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>B3B-XH-AM(LF)(SN)</value>
+      <footprint>Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/jst-sales-america-inc/B3B-XH-AM-LF-SN/1651029</field>
+        <field name="Part number">B3B-XH-AM(LF)(SN)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/jst-sales-america-inc/B3B-XH-AM-LF-SN/1651029"/>
+      <property name="Part number" value="B3B-XH-AM(LF)(SN)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ki_PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8197a802-f3fc-4e06-b45b-08735ced0eaf</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>0039301020</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/ps/PS-5556-001.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/molex/0039301020/561078?s=N4IgTCBcDaIMwE44AYCMyzJAXQL5A</field>
+        <field name="Part number">0039301020</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/molex/0039301020/561078?s=N4IgTCBcDaIMwE44AYCMyzJAXQL5A"/>
+      <property name="Part number" value="0039301020"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ki_PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b4997d3-fafd-4035-b0ec-c4a22df71ea5</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>0470531000</value>
+      <footprint>Connector:FanPinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/470531000_sd.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/molex/0470531000/2421261?s=N4IgTCBcDaIAwBYDscCsBmAjHHIC6AvkA</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/molex/0470531000/2421261?s=N4IgTCBcDaIAwBYDscCsBmAjHHIC6AvkA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ki_PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7c76faf-9473-45cb-9840-20fc743fac14</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>4pin JST</value>
+      <footprint>Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digikey link" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ki_PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76581faf-1a62-4d0f-aade-c94fa066d7f3</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>510</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey link" value=""/>
+      <property name="Part number" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ki_PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16e5aa63-f1f7-49c5-b376-d57ccbbc9284</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21B105KAFNNNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL21B105KAFNNNE/3886724</field>
+        <field name="Part number">CL21B105KAFNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL21B105KAFNNNE/3886724"/>
+      <property name="Part number" value="CL21B105KAFNNNE"/>
+      <property name="Sheetname" value="PWM_generation"/>
+      <property name="Sheetfile" value="PWM_generation.kicad_sch"/>
+      <sheetpath names="/PWM_generation/" tstamps="/d0cbe6c3-ddca-405e-bd7e-804b30aab2db/"/>
+      <tstamps>96318789-13f2-4ae1-b6af-a3fb38aa64e6</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KAQNNNG_DS.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL21A475KAQNNNG/3894439</field>
+        <field name="Part number">CL21A475KAQNNNG</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL21A475KAQNNNG/3894439"/>
+      <property name="Part number" value="CL21A475KAQNNNG"/>
+      <property name="Sheetname" value="PWM_generation"/>
+      <property name="Sheetfile" value="PWM_generation.kicad_sch"/>
+      <sheetpath names="/PWM_generation/" tstamps="/d0cbe6c3-ddca-405e-bd7e-804b30aab2db/"/>
+      <tstamps>66612719-2d8c-4667-9ba5-6a98200eef6f</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/kyocera-avx/08055C102KAT2A/563481</field>
+        <field name="Part number">08055C102KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/kyocera-avx/08055C102KAT2A/563481"/>
+      <property name="Part number" value="08055C102KAT2A"/>
+      <property name="Sheetname" value="PWM_generation"/>
+      <property name="Sheetfile" value="PWM_generation.kicad_sch"/>
+      <sheetpath names="/PWM_generation/" tstamps="/d0cbe6c3-ddca-405e-bd7e-804b30aab2db/"/>
+      <tstamps>b3980dba-33ec-40c1-8913-dcb0b2a9af35</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-CML.PDF</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CML0805Y5V104ZT50V/10660028</field>
+        <field name="Part number">CML0805Y5V104ZT50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CML0805Y5V104ZT50V/10660028"/>
+      <property name="Part number" value="CML0805Y5V104ZT50V"/>
+      <property name="Sheetname" value="PWM_generation"/>
+      <property name="Sheetfile" value="PWM_generation.kicad_sch"/>
+      <sheetpath names="/PWM_generation/" tstamps="/d0cbe6c3-ddca-405e-bd7e-804b30aab2db/"/>
+      <tstamps>1a9cd4cb-71ed-440e-8955-6c025858b7c5</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-CML.PDF</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CML0805Y5V104ZT50V/10660028</field>
+        <field name="Part number">CML0805Y5V104ZT50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CML0805Y5V104ZT50V/10660028"/>
+      <property name="Part number" value="CML0805Y5V104ZT50V"/>
+      <property name="Sheetname" value="PWM_generation"/>
+      <property name="Sheetfile" value="PWM_generation.kicad_sch"/>
+      <sheetpath names="/PWM_generation/" tstamps="/d0cbe6c3-ddca-405e-bd7e-804b30aab2db/"/>
+      <tstamps>c422949c-7df1-4f38-b9d5-308a574e0edd</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>RB520S30T5G</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/rb520s30t1-d.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/onsemi/RB520S30T5G/2797277</field>
+        <field name="Part number">RB520S30T5G</field>
+        <field name="Spice_Model">RB520S30T5G</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Diode" part="1N4001" description="50V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/onsemi/RB520S30T5G/2797277"/>
+      <property name="Part number" value="RB520S30T5G"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Spice_Model" value="RB520S30T5G"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheetname" value="PWM_generation"/>
+      <property name="Sheetfile" value="PWM_generation.kicad_sch"/>
+      <sheetpath names="/PWM_generation/" tstamps="/d0cbe6c3-ddca-405e-bd7e-804b30aab2db/"/>
+      <tstamps>630f9f67-6eba-4352-8329-f838c6e443a7</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>RB520S30T5G</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/rb520s30t1-d.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/onsemi/RB520S30T5G/2797277</field>
+        <field name="Part number">RB520S30T5G</field>
+      </fields>
+      <libsource lib="Diode" part="1N4001" description="50V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/onsemi/RB520S30T5G/2797277"/>
+      <property name="Part number" value="RB520S30T5G"/>
+      <property name="Sheetname" value="PWM_generation"/>
+      <property name="Sheetfile" value="PWM_generation.kicad_sch"/>
+      <sheetpath names="/PWM_generation/" tstamps="/d0cbe6c3-ddca-405e-bd7e-804b30aab2db/"/>
+      <tstamps>1988fb35-71bf-48a6-a02f-42c2f381adc1</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>0039301020</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/ps/PS-5556-001.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/molex/0039301020/561078?s=N4IgTCBcDaIMwE44AYCMyzJAXQL5A</field>
+        <field name="Part number">0039301020</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/molex/0039301020/561078?s=N4IgTCBcDaIMwE44AYCMyzJAXQL5A"/>
+      <property name="Part number" value="0039301020"/>
+      <property name="Sheetname" value="PWM_generation"/>
+      <property name="Sheetfile" value="PWM_generation.kicad_sch"/>
+      <sheetpath names="/PWM_generation/" tstamps="/d0cbe6c3-ddca-405e-bd7e-804b30aab2db/"/>
+      <tstamps>b94f62d9-26b2-4dfb-81c0-623ccbd3d801</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>22K</value>
+      <footprint>Potentiometer_THT:PC16SH-10IP06-223A2020-TA</footprint>
+      <datasheet>https://www.piher.net/pdf/20-PC16v03.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/amphenol-piher-sensing-systems/PC16SH-10IP06-223A2020-TA/16028525?s=N4IgTCBcDaIIwE4EGYC0AFAwnAbAZQAlU4AGASXRJ1TDGQEEwSnUAVe1AOQBEQBdAL5A</field>
+        <field name="Part number">PC16SH-10IP06-223A2020-TA</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer_US" description="Potentiometer, US symbol"/>
+      <property name="Part number" value="PC16SH-10IP06-223A2020-TA"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/amphenol-piher-sensing-systems/PC16SH-10IP06-223A2020-TA/16028525?s=N4IgTCBcDaIIwE4EGYC0AFAwnAbAZQAlU4AGASXRJ1TDGQEEwSnUAVe1AOQBEQBdAL5A"/>
+      <property name="Sheetname" value="PWM_generation"/>
+      <property name="Sheetfile" value="PWM_generation.kicad_sch"/>
+      <sheetpath names="/PWM_generation/" tstamps="/d0cbe6c3-ddca-405e-bd7e-804b30aab2db/"/>
+      <tstamps>ae240746-40b7-4635-9233-047d934a5a3c</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LDL1117S50R</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/0e/5a/00/ca/10/1a/4f/a5/DM00366442/files/DM00366442.pdf/jcr:content/translations/en.DM00366442.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/stmicroelectronics/LDL1117S50R/7102072?s=N4IgTCBcDaIDYBM4EZUHYDOBWADAJxAF0BfIA</field>
+        <field name="Part number">LDL1117S50R</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="LDL1117S50R" description="Linear Voltage Regulator IC Positive Fixed 1 Output 1.2A SOT-223"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/stmicroelectronics/LDL1117S50R/7102072?s=N4IgTCBcDaIDYBM4EZUHYDOBWADAJxAF0BfIA"/>
+      <property name="Part number" value="LDL1117S50R"/>
+      <property name="Sheetname" value="PWM_generation"/>
+      <property name="Sheetfile" value="PWM_generation.kicad_sch"/>
+      <sheetpath names="/PWM_generation/" tstamps="/d0cbe6c3-ddca-405e-bd7e-804b30aab2db/"/>
+      <tstamps>3b288e81-687d-40b3-bfb0-8cbd4c5e3dd2</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TLC555CPWR</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm555.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/texas-instruments/TLC555CPWR/381096</field>
+        <field name="Part number">TLC555CPWR</field>
+      </fields>
+      <libsource lib="Timer" part="TLC555CPWR" description="Precision Timers, 555 compatible, VSSOP-8"/>
+      <property name="Part number" value="TLC555CPWR"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/texas-instruments/TLC555CPWR/381096"/>
+      <property name="Sheetname" value="PWM_generation"/>
+      <property name="Sheetfile" value="PWM_generation.kicad_sch"/>
+      <sheetpath names="/PWM_generation/" tstamps="/d0cbe6c3-ddca-405e-bd7e-804b30aab2db/"/>
+      <tstamps>d8398dbf-4bed-401b-84ad-e57aae2ff022</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/murata-electronics/GRM21BR61H106KE43K/15191954</field>
+        <field name="Part number">GRM21BR61H106KE43K</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/murata-electronics/GRM21BR61H106KE43K/15191954"/>
+      <property name="Part number" value="GRM21BR61H106KE43K"/>
+      <property name="Sheetname" value="Charging"/>
+      <property name="Sheetfile" value="Charging.kicad_sch"/>
+      <sheetpath names="/Charging/" tstamps="/9ab53ca4-c94c-4c0f-9710-20b56a11033f/"/>
+      <tstamps>e5f5e4bb-7ed4-4cc9-9430-002ae6115118</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-CML.PDF</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CML0805Y5V104ZT50V/10660028</field>
+        <field name="Part number">CML0805Y5V104ZT50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CML0805Y5V104ZT50V/10660028"/>
+      <property name="Part number" value="CML0805Y5V104ZT50V"/>
+      <property name="Sheetname" value="Charging"/>
+      <property name="Sheetfile" value="Charging.kicad_sch"/>
+      <sheetpath names="/Charging/" tstamps="/9ab53ca4-c94c-4c0f-9710-20b56a11033f/"/>
+      <tstamps>47fca410-76b8-40d1-b286-7c022b8e904a</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>Yellow</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <libsource lib="LED" part="CQY99" description="950nm IR-LED, 5mm"/>
+      <property name="Digikey link" value=""/>
+      <property name="Part number" value=""/>
+      <property name="Sheetname" value="Charging"/>
+      <property name="Sheetfile" value="Charging.kicad_sch"/>
+      <sheetpath names="/Charging/" tstamps="/9ab53ca4-c94c-4c0f-9710-20b56a11033f/"/>
+      <tstamps>f3fe62bc-01bc-4418-80b6-e3e4e80767cf</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>SI2301-TP</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/SI2301(SOT-23).pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/micro-commercial-co/SI2301-TP/1793242</field>
+        <field name="Part number">SI2301-TP</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="SI2301-TP" description="MOSFET P-CH 20V 2.8A SOT-23"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/micro-commercial-co/SI2301-TP/1793242"/>
+      <property name="Part number" value="SI2301-TP"/>
+      <property name="Sheetname" value="Charging"/>
+      <property name="Sheetfile" value="Charging.kicad_sch"/>
+      <sheetpath names="/Charging/" tstamps="/9ab53ca4-c94c-4c0f-9710-20b56a11033f/"/>
+      <tstamps>8bd6f59b-d76c-4489-9286-86e6df71de73</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rncp.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RNCP0805FTD10K0/2240262</field>
+        <field name="Part number">RNCP0805FTD10K0</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RNCP0805FTD10K0/2240262"/>
+      <property name="Part number" value="RNCP0805FTD10K0"/>
+      <property name="Sheetname" value="Charging"/>
+      <property name="Sheetfile" value="Charging.kicad_sch"/>
+      <sheetpath names="/Charging/" tstamps="/9ab53ca4-c94c-4c0f-9710-20b56a11033f/"/>
+      <tstamps>b555b16b-7e18-465c-9b19-90261824bf6f</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>0R110</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-6BSFR11V/5647600</field>
+        <field name="Part number">ERJ-6BSFR11V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-6BSFR11V/5647600"/>
+      <property name="Part number" value="ERJ-6BSFR11V"/>
+      <property name="Sheetname" value="Charging"/>
+      <property name="Sheetfile" value="Charging.kicad_sch"/>
+      <sheetpath names="/Charging/" tstamps="/9ab53ca4-c94c-4c0f-9710-20b56a11033f/"/>
+      <tstamps>af5a1dd9-c0c0-495f-a3cd-89d07b9db86f</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>MCP73844T-820I/MS</value>
+      <footprint>Package_SO:MSOP-8_3x3mm_P0.65mm</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/21823D.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/microchip-technology/MCP73844T-820I-MS/593752</field>
+        <field name="Part number">MCP73844T-820I/MS</field>
+      </fields>
+      <libsource lib="Battery_Management" part="MCP73844T-820I{slash}MS" description="IC BATT CNTL LI-ION 1-2CEL 8MSOP"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/microchip-technology/MCP73844T-820I-MS/593752"/>
+      <property name="Part number" value="MCP73844T-820I/MS"/>
+      <property name="Sheetname" value="Charging"/>
+      <property name="Sheetfile" value="Charging.kicad_sch"/>
+      <sheetpath names="/Charging/" tstamps="/9ab53ca4-c94c-4c0f-9710-20b56a11033f/"/>
+      <tstamps>4c0d8dc3-5868-457c-a143-dfa9fd585589</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-CML.PDF</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CML0805Y5V104ZT50V/10660028</field>
+        <field name="Part number">CML0805Y5V104ZT50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CML0805Y5V104ZT50V/10660028"/>
+      <property name="Part number" value="CML0805Y5V104ZT50V"/>
+      <property name="Sheetname" value="Battery_protections"/>
+      <property name="Sheetfile" value="Battery_protections.kicad_sch"/>
+      <sheetpath names="/Battery_protections/" tstamps="/a43c876c-93ca-4457-bd54-0a8c2951e964/"/>
+      <tstamps>c6c81877-fc58-4c48-9a42-03054ded4294</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-CML.PDF</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CML0805Y5V104ZT50V/10660028</field>
+        <field name="Part number">CML0805Y5V104ZT50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CML0805Y5V104ZT50V/10660028"/>
+      <property name="Part number" value="CML0805Y5V104ZT50V"/>
+      <property name="Sheetname" value="Battery_protections"/>
+      <property name="Sheetfile" value="Battery_protections.kicad_sch"/>
+      <sheetpath names="/Battery_protections/" tstamps="/a43c876c-93ca-4457-bd54-0a8c2951e964/"/>
+      <tstamps>61aa7955-f740-4c7c-b80f-4293db2624c3</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-CML.PDF</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CML0805Y5V104ZT50V/10660028</field>
+        <field name="Part number">CML0805Y5V104ZT50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CML0805Y5V104ZT50V/10660028"/>
+      <property name="Part number" value="CML0805Y5V104ZT50V"/>
+      <property name="Sheetname" value="Battery_protections"/>
+      <property name="Sheetfile" value="Battery_protections.kicad_sch"/>
+      <sheetpath names="/Battery_protections/" tstamps="/a43c876c-93ca-4457-bd54-0a8c2951e964/"/>
+      <tstamps>0e849a02-c235-4373-abe7-230f3bbf304c</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-CML.PDF</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CML0805Y5V104ZT50V/10660028</field>
+        <field name="Part number">CML0805Y5V104ZT50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CML0805Y5V104ZT50V/10660028"/>
+      <property name="Part number" value="CML0805Y5V104ZT50V"/>
+      <property name="Sheetname" value="Battery_protections"/>
+      <property name="Sheetfile" value="Battery_protections.kicad_sch"/>
+      <sheetpath names="/Battery_protections/" tstamps="/a43c876c-93ca-4457-bd54-0a8c2951e964/"/>
+      <tstamps>c9dabe7e-7b56-41bc-a388-3e80dcbe8720</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>330nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/885012207101.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/w%C3%BCrth-elektronik/885012207101/5453531</field>
+        <field name="Part number">885012207101</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/w%C3%BCrth-elektronik/885012207101/5453531"/>
+      <property name="Part number" value="885012207101"/>
+      <property name="Sheetname" value="Battery_protections"/>
+      <property name="Sheetfile" value="Battery_protections.kicad_sch"/>
+      <sheetpath names="/Battery_protections/" tstamps="/a43c876c-93ca-4457-bd54-0a8c2951e964/"/>
+      <tstamps>244e77ad-0e59-4aea-a45a-7ce64b3d8b33</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-CML.PDF</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CML0805Y5V104ZT50V/10660028</field>
+        <field name="Part number">CML0805Y5V104ZT50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CML0805Y5V104ZT50V/10660028"/>
+      <property name="Part number" value="CML0805Y5V104ZT50V"/>
+      <property name="Sheetname" value="Battery_protections"/>
+      <property name="Sheetfile" value="Battery_protections.kicad_sch"/>
+      <sheetpath names="/Battery_protections/" tstamps="/a43c876c-93ca-4457-bd54-0a8c2951e964/"/>
+      <tstamps>9ee7eab9-9890-47dc-b74b-8491094e0d76</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>SI2102A-TP</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/SI2102A(SOT-323).pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/micro-commercial-co/SI2102A-TP/15277502?s=N4IgTCBcDaIMoEkwEYAMYCCBaAKgBRAF0BfIA</field>
+        <field name="Part number">SI2102A-TP</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="SI2102A-TP" description="N-CHANNEL MOSFET"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/micro-commercial-co/SI2102A-TP/15277502?s=N4IgTCBcDaIMoEkwEYAMYCCBaAKgBRAF0BfIA"/>
+      <property name="Part number" value="SI2102A-TP"/>
+      <property name="Sheetname" value="Battery_protections"/>
+      <property name="Sheetfile" value="Battery_protections.kicad_sch"/>
+      <sheetpath names="/Battery_protections/" tstamps="/a43c876c-93ca-4457-bd54-0a8c2951e964/"/>
+      <tstamps>5e6d8b97-9d29-40ec-8484-8f23152266e7</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>SI2102A-TP</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/SI2102A(SOT-323).pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/micro-commercial-co/SI2102A-TP/15277502?s=N4IgTCBcDaIMoEkwEYAMYCCBaAKgBRAF0BfIA</field>
+        <field name="Part number">SI2102A-TP</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="SI2102A-TP" description="N-CHANNEL MOSFET"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/micro-commercial-co/SI2102A-TP/15277502?s=N4IgTCBcDaIMoEkwEYAMYCCBaAKgBRAF0BfIA"/>
+      <property name="Part number" value="SI2102A-TP"/>
+      <property name="Sheetname" value="Battery_protections"/>
+      <property name="Sheetfile" value="Battery_protections.kicad_sch"/>
+      <sheetpath names="/Battery_protections/" tstamps="/a43c876c-93ca-4457-bd54-0a8c2951e964/"/>
+      <tstamps>fac47862-26ad-4e29-8447-6ea565e4f4e9</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>SI2102A-TP</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/SI2102A(SOT-323).pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/micro-commercial-co/SI2102A-TP/15277502?s=N4IgTCBcDaIMoEkwEYAMYCCBaAKgBRAF0BfIA</field>
+        <field name="Part number">SI2102A-TP</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="SI2102A-TP" description="N-CHANNEL MOSFET"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/micro-commercial-co/SI2102A-TP/15277502?s=N4IgTCBcDaIMoEkwEYAMYCCBaAKgBRAF0BfIA"/>
+      <property name="Part number" value="SI2102A-TP"/>
+      <property name="Sheetname" value="Battery_protections"/>
+      <property name="Sheetfile" value="Battery_protections.kicad_sch"/>
+      <sheetpath names="/Battery_protections/" tstamps="/a43c876c-93ca-4457-bd54-0a8c2951e964/"/>
+      <tstamps>08a65ec6-fe05-4383-bc29-29966e0b0530</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>SI2102A-TP</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/SI2102A(SOT-323).pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/micro-commercial-co/SI2102A-TP/15277502?s=N4IgTCBcDaIMoEkwEYAMYCCBaAKgBRAF0BfIA</field>
+        <field name="Part number">SI2102A-TP</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="SI2102A-TP" description="N-CHANNEL MOSFET"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/micro-commercial-co/SI2102A-TP/15277502?s=N4IgTCBcDaIMoEkwEYAMYCCBaAKgBRAF0BfIA"/>
+      <property name="Part number" value="SI2102A-TP"/>
+      <property name="Sheetname" value="Battery_protections"/>
+      <property name="Sheetfile" value="Battery_protections.kicad_sch"/>
+      <sheetpath names="/Battery_protections/" tstamps="/a43c876c-93ca-4457-bd54-0a8c2951e964/"/>
+      <tstamps>3c686eb6-3ce1-49dd-9de3-9385516cf4aa</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0805FT330R/1760484</field>
+        <field name="Part number">RMCF0805FT330R</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0805FT330R/1760484"/>
+      <property name="Part number" value="RMCF0805FT330R"/>
+      <property name="Sheetname" value="Battery_protections"/>
+      <property name="Sheetfile" value="Battery_protections.kicad_sch"/>
+      <sheetpath names="/Battery_protections/" tstamps="/a43c876c-93ca-4457-bd54-0a8c2951e964/"/>
+      <tstamps>75a1d6a9-7cb8-4958-8df6-93d0dbf9760c</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0805FT330R/1760484</field>
+        <field name="Part number">RMCF0805FT330R</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0805FT330R/1760484"/>
+      <property name="Part number" value="RMCF0805FT330R"/>
+      <property name="Sheetname" value="Battery_protections"/>
+      <property name="Sheetfile" value="Battery_protections.kicad_sch"/>
+      <sheetpath names="/Battery_protections/" tstamps="/a43c876c-93ca-4457-bd54-0a8c2951e964/"/>
+      <tstamps>ba697714-6008-4559-a4d8-f7c7bdfd21cf</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>261</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0805FG261R/1712914</field>
+        <field name="Part number">RMCF0805FG261R</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0805FG261R/1712914"/>
+      <property name="Part number" value="RMCF0805FG261R"/>
+      <property name="Sheetname" value="Battery_protections"/>
+      <property name="Sheetfile" value="Battery_protections.kicad_sch"/>
+      <sheetpath names="/Battery_protections/" tstamps="/a43c876c-93ca-4457-bd54-0a8c2951e964/"/>
+      <tstamps>d6a68d8a-cde9-4bd3-a4e0-da99457bccbf</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>261</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0805FG261R/1712914</field>
+        <field name="Part number">RMCF0805FG261R</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0805FG261R/1712914"/>
+      <property name="Part number" value="RMCF0805FG261R"/>
+      <property name="Sheetname" value="Battery_protections"/>
+      <property name="Sheetfile" value="Battery_protections.kicad_sch"/>
+      <sheetpath names="/Battery_protections/" tstamps="/a43c876c-93ca-4457-bd54-0a8c2951e964/"/>
+      <tstamps>73ab3c99-3683-4fdb-bb75-692c8488f0b8</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>442</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0805FT442R/1760521</field>
+        <field name="Part number">RMCF0805FT442R</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0805FT442R/1760521"/>
+      <property name="Part number" value="RMCF0805FT442R"/>
+      <property name="Sheetname" value="Battery_protections"/>
+      <property name="Sheetfile" value="Battery_protections.kicad_sch"/>
+      <sheetpath names="/Battery_protections/" tstamps="/a43c876c-93ca-4457-bd54-0a8c2951e964/"/>
+      <tstamps>f03b7e21-7878-4559-be69-2e8329234ef0</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>2K7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0805FT2K70/1760308</field>
+        <field name="Part number">RMCF0805FT2K70</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0805FT2K70/1760308"/>
+      <property name="Part number" value="RMCF0805FT2K70"/>
+      <property name="Sheetname" value="Battery_protections"/>
+      <property name="Sheetfile" value="Battery_protections.kicad_sch"/>
+      <sheetpath names="/Battery_protections/" tstamps="/a43c876c-93ca-4457-bd54-0a8c2951e964/"/>
+      <tstamps>29825914-02d2-4189-b1d1-7c317e288108</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>2K7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0805FT2K70/1760308</field>
+        <field name="Part number">RMCF0805FT2K70</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0805FT2K70/1760308"/>
+      <property name="Part number" value="RMCF0805FT2K70"/>
+      <property name="Sheetname" value="Battery_protections"/>
+      <property name="Sheetfile" value="Battery_protections.kicad_sch"/>
+      <sheetpath names="/Battery_protections/" tstamps="/a43c876c-93ca-4457-bd54-0a8c2951e964/"/>
+      <tstamps>06b8580f-02c4-4268-b25f-529649c5abe8</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0805FT100R/1760711</field>
+        <field name="Part number">RMCF0805FT100R</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0805FT100R/1760711"/>
+      <property name="Part number" value="RMCF0805FT100R"/>
+      <property name="Sheetname" value="Battery_protections"/>
+      <property name="Sheetfile" value="Battery_protections.kicad_sch"/>
+      <sheetpath names="/Battery_protections/" tstamps="/a43c876c-93ca-4457-bd54-0a8c2951e964/"/>
+      <tstamps>e068081e-5667-42f3-a45a-4d1cf0b2f741</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>AP9101CK6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP9101C.pdf</datasheet>
+      <fields>
+        <field name="Part number">AP9101CK6</field>
+      </fields>
+      <libsource lib="Battery_Management" part="AP9101CK6" description="Li+ Battery Protection IC for Single Cell Pack, SOT-23-6"/>
+      <property name="Part number" value="AP9101CK6"/>
+      <property name="Sheetname" value="Battery_protections"/>
+      <property name="Sheetfile" value="Battery_protections.kicad_sch"/>
+      <sheetpath names="/Battery_protections/" tstamps="/a43c876c-93ca-4457-bd54-0a8c2951e964/"/>
+      <tstamps>69e100c8-247d-42ec-b4e1-b4bc18b14eb9</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>AP9101CK6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP9101C.pdf</datasheet>
+      <fields>
+        <field name="Part number">AP9101CK6</field>
+      </fields>
+      <libsource lib="Battery_Management" part="AP9101CK6" description="Li+ Battery Protection IC for Single Cell Pack, SOT-23-6"/>
+      <property name="Part number" value="AP9101CK6"/>
+      <property name="Sheetname" value="Battery_protections"/>
+      <property name="Sheetfile" value="Battery_protections.kicad_sch"/>
+      <sheetpath names="/Battery_protections/" tstamps="/a43c876c-93ca-4457-bd54-0a8c2951e964/"/>
+      <tstamps>053dda9b-0fb4-4126-a6a2-19c852b48cb9</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>BQ29209DRBR</value>
+      <footprint>My_footprints:BQ29209DRBR</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/bq29209.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1667434051714&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fbq29209</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/texas-instruments/BQ29209DRBR/2350205?s=N4IgTCBcDaIEIEUwE4wAZkBEBKdsgF0BfIA</field>
+        <field name="Part number">BQ29209DRBR</field>
+      </fields>
+      <libsource lib="My_library" part="BQ29209DRBR" description="IC BATT PROT LI-ION 2CELL 8SON"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/texas-instruments/BQ29209DRBR/2350205?s=N4IgTCBcDaIEIEUwE4wAZkBEBKdsgF0BfIA"/>
+      <property name="Part number" value="BQ29209DRBR"/>
+      <property name="Sheetname" value="Battery_protections"/>
+      <property name="Sheetfile" value="Battery_protections.kicad_sch"/>
+      <sheetpath names="/Battery_protections/" tstamps="/a43c876c-93ca-4457-bd54-0a8c2951e964/"/>
+      <tstamps>19d712f5-ad22-456d-9ad0-e455fdef7ae1</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-CML.PDF</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CML0805Y5V104ZT50V/10660028</field>
+        <field name="Part number">CML0805Y5V104ZT50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CML0805Y5V104ZT50V/10660028"/>
+      <property name="Part number" value="CML0805Y5V104ZT50V"/>
+      <property name="Sheetname" value="12V Boost converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <sheetpath names="/12V Boost converter/" tstamps="/58f11461-4943-4ae3-b4d8-49e23e57c963/"/>
+      <tstamps>cd405c4a-3fc9-4a7a-a139-f88e5e2ed1c0</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-CML.PDF</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CML0805Y5V104ZT50V/10660028</field>
+        <field name="Part number">CML0805Y5V104ZT50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/CML0805Y5V104ZT50V/10660028"/>
+      <property name="Part number" value="CML0805Y5V104ZT50V"/>
+      <property name="Sheetname" value="12V Boost converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <sheetpath names="/12V Boost converter/" tstamps="/58f11461-4943-4ae3-b4d8-49e23e57c963/"/>
+      <tstamps>ea5be770-5bf1-4108-958b-8bf28a6c6b6e</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey link" value=""/>
+      <property name="Part number" value=""/>
+      <property name="Sheetname" value="12V Boost converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <sheetpath names="/12V Boost converter/" tstamps="/58f11461-4943-4ae3-b4d8-49e23e57c963/"/>
+      <tstamps>808a647a-f744-4694-b2a2-43bb525182eb</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>15nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/885012207123.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/w%C3%BCrth-elektronik/885012207123/9346001</field>
+        <field name="Part number">885012207123</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/w%C3%BCrth-elektronik/885012207123/9346001"/>
+      <property name="Part number" value="885012207123"/>
+      <property name="Sheetname" value="12V Boost converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <sheetpath names="/12V Boost converter/" tstamps="/58f11461-4943-4ae3-b4d8-49e23e57c963/"/>
+      <tstamps>72a0c962-99e5-4c72-a4f7-7104e414cb3e</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>120pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey link" value=""/>
+      <property name="Part number" value=""/>
+      <property name="Sheetname" value="12V Boost converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <sheetpath names="/12V Boost converter/" tstamps="/58f11461-4943-4ae3-b4d8-49e23e57c963/"/>
+      <tstamps>4985dc99-5cc4-4b12-88eb-af59a4def0b5</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey link" value=""/>
+      <property name="Part number" value=""/>
+      <property name="Sheetname" value="12V Boost converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <sheetpath names="/12V Boost converter/" tstamps="/58f11461-4943-4ae3-b4d8-49e23e57c963/"/>
+      <tstamps>e3420d81-e3fd-4e87-bf7d-9c1fdc4c9ac7</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>180uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="Digikey link" value=""/>
+      <property name="Part number" value=""/>
+      <property name="Sheetname" value="12V Boost converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <sheetpath names="/12V Boost converter/" tstamps="/58f11461-4943-4ae3-b4d8-49e23e57c963/"/>
+      <tstamps>16e70618-79c0-44dd-ab16-4086045d576a</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>CRS05(TE85L,Q,M)</value>
+      <footprint>Diode_SMD:CRS05(TE85L,Q,M)</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/CRS05_datasheet_en_20190401.pdf?did=3163&amp;prodName=CRS05</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/toshiba-semiconductor-and-storage/CRS05-TE85L-Q-M/871558</field>
+        <field name="Part number">CRS05(TE85L,Q,M)</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/toshiba-semiconductor-and-storage/CRS05-TE85L-Q-M/871558"/>
+      <property name="Part number" value="CRS05(TE85L,Q,M)"/>
+      <property name="Sheetname" value="12V Boost converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <sheetpath names="/12V Boost converter/" tstamps="/58f11461-4943-4ae3-b4d8-49e23e57c963/"/>
+      <tstamps>f3cb75f2-aff1-4553-be17-5f6ce2be996f</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>100uH</value>
+      <footprint>Inductor_SMD:74404063101</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/74404063101.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/w%C3%BCrth-elektronik/74404063101/4865679?s=N4IgTCBcDaIOwBYEAYUDYDMBGZWQF0BfIA</field>
+        <field name="Part number">74404063101</field>
+      </fields>
+      <libsource lib="pspice" part="INDUCTOR" description="Inductor symbol for simulation only"/>
+      <property name="Part number" value="74404063101"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/w%C3%BCrth-elektronik/74404063101/4865679?s=N4IgTCBcDaIOwBYEAYUDYDMBGZWQF0BfIA"/>
+      <property name="Sheetname" value="12V Boost converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <sheetpath names="/12V Boost converter/" tstamps="/58f11461-4943-4ae3-b4d8-49e23e57c963/"/>
+      <tstamps>f9838692-b746-4596-a1e2-7624e791ba40</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>SI2102A-TP</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/SI2102A(SOT-323).pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/micro-commercial-co/SI2102A-TP/15277502?s=N4IgTCBcDaIMoEkwEYAMYCCBaAKgBRAF0BfIA</field>
+        <field name="Part number">SI2102A-TP</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="SI2102A-TP" description="N-CHANNEL MOSFET"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/micro-commercial-co/SI2102A-TP/15277502?s=N4IgTCBcDaIMoEkwEYAMYCCBaAKgBRAF0BfIA"/>
+      <property name="Part number" value="SI2102A-TP"/>
+      <property name="Sheetname" value="12V Boost converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <sheetpath names="/12V Boost converter/" tstamps="/58f11461-4943-4ae3-b4d8-49e23e57c963/"/>
+      <tstamps>facdda7a-983a-4bf4-850a-f0f2da3cedd4</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>SI2102A-TP</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/SI2102A(SOT-323).pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/micro-commercial-co/SI2102A-TP/15277502?s=N4IgTCBcDaIMoEkwEYAMYCCBaAKgBRAF0BfIA</field>
+        <field name="Part number">SI2102A-TP</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="SI2102A-TP" description="N-CHANNEL MOSFET"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/micro-commercial-co/SI2102A-TP/15277502?s=N4IgTCBcDaIMoEkwEYAMYCCBaAKgBRAF0BfIA"/>
+      <property name="Part number" value="SI2102A-TP"/>
+      <property name="Sheetname" value="12V Boost converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <sheetpath names="/12V Boost converter/" tstamps="/58f11461-4943-4ae3-b4d8-49e23e57c963/"/>
+      <tstamps>aaf11787-b3d3-4811-8023-54bd796d8c81</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>113K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0201FT113K/5965944</field>
+        <field name="Part number">RMCF0201FT113K</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0201FT113K/5965944"/>
+      <property name="Part number" value="RMCF0201FT113K"/>
+      <property name="Sheetname" value="12V Boost converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <sheetpath names="/12V Boost converter/" tstamps="/58f11461-4943-4ae3-b4d8-49e23e57c963/"/>
+      <tstamps>a34352e0-3585-4f98-8f96-4534b54b2b61</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey link" value=""/>
+      <property name="Part number" value=""/>
+      <property name="Sheetname" value="12V Boost converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <sheetpath names="/12V Boost converter/" tstamps="/58f11461-4943-4ae3-b4d8-49e23e57c963/"/>
+      <tstamps>10d20e1d-8f6f-4a61-81e7-269c39426461</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>12K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey link" value=""/>
+      <property name="Part number" value=""/>
+      <property name="Sheetname" value="12V Boost converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <sheetpath names="/12V Boost converter/" tstamps="/58f11461-4943-4ae3-b4d8-49e23e57c963/"/>
+      <tstamps>db31f6ff-3ac2-4969-b809-6d52ceba6e44</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rncp.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RNCP0805FTD10K0/2240262</field>
+        <field name="Part number">RNCP0805FTD10K0</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RNCP0805FTD10K0/2240262"/>
+      <property name="Part number" value="RNCP0805FTD10K0"/>
+      <property name="Sheetname" value="12V Boost converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <sheetpath names="/12V Boost converter/" tstamps="/58f11461-4943-4ae3-b4d8-49e23e57c963/"/>
+      <tstamps>3ac0be69-f590-4388-889c-d2362a6ca341</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rncp.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RNCP0805FTD10K0/2240262</field>
+        <field name="Part number">RNCP0805FTD10K0</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RNCP0805FTD10K0/2240262"/>
+      <property name="Part number" value="RNCP0805FTD10K0"/>
+      <property name="Sheetname" value="12V Boost converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <sheetpath names="/12V Boost converter/" tstamps="/58f11461-4943-4ae3-b4d8-49e23e57c963/"/>
+      <tstamps>18215985-2a3d-4c7b-a24d-92acc260f7e0</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>27K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey link" value=""/>
+      <property name="Part number" value=""/>
+      <property name="Sheetname" value="12V Boost converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <sheetpath names="/12V Boost converter/" tstamps="/58f11461-4943-4ae3-b4d8-49e23e57c963/"/>
+      <tstamps>c67884b1-0668-4837-b481-1a172a954e27</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>2K7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0805FT2K70/1760308</field>
+        <field name="Part number">RMCF0805FT2K70</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0805FT2K70/1760308"/>
+      <property name="Part number" value="RMCF0805FT2K70"/>
+      <property name="Sheetname" value="12V Boost converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <sheetpath names="/12V Boost converter/" tstamps="/58f11461-4943-4ae3-b4d8-49e23e57c963/"/>
+      <tstamps>38bbbbb8-c6aa-463b-baba-4e2d5f9f9993</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>200R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey link" value=""/>
+      <property name="Part number" value=""/>
+      <property name="Sheetname" value="12V Boost converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <sheetpath names="/12V Boost converter/" tstamps="/58f11461-4943-4ae3-b4d8-49e23e57c963/"/>
+      <tstamps>a61205cf-5496-46a7-a980-188627f98e40</tstamps>
+    </comp>
+    <comp ref="RV2">
+      <value>5K</value>
+      <footprint>Potentiometer_THT:Potentiometer Custom Vertical</footprint>
+      <libsource lib="Device" part="R_Potentiometer_US" description="Potentiometer, US symbol"/>
+      <property name="Sheetname" value="12V Boost converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <sheetpath names="/12V Boost converter/" tstamps="/58f11461-4943-4ae3-b4d8-49e23e57c963/"/>
+      <tstamps>541b2426-3233-408f-96c4-ef419f4b9798</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>TL5001CDR</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tl5001.pdf?ts=1668882726896&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTL5001%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dapp-null-null-GPN_EN-cpc-pf-google-wwe%2526utm_content%253DTL5001%2526ds_k%253DTL5001%2526DCM%253Dyes%2526gclid%253DEAIaIQobChMI15qGr-a6-wIV4ZJbCh1-CgFZEAMYASAAEgK5J_D_BwE%2526gclsrc%253Daw.ds</datasheet>
+      <fields>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/texas-instruments/TL5001CDR/276937</field>
+        <field name="Part number">LT5001CDR</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="TL5001CDR" description="Buck, Boost, Flyback Regulator Positive Output Step-Up, Step-Down, Step-Up/Step-Down DC-DC Controller IC 8-SOIC"/>
+      <property name="Part number" value="LT5001CDR"/>
+      <property name="Digikey link" value="https://www.digikey.ca/en/products/detail/texas-instruments/TL5001CDR/276937"/>
+      <property name="Sheetname" value="12V Boost converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <sheetpath names="/12V Boost converter/" tstamps="/58f11461-4943-4ae3-b4d8-49e23e57c963/"/>
+      <tstamps>da61c5a8-3868-4cd3-9424-9308ac0a5f5f</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Battery_Management" part="AP9101CK6">
+      <description>Li+ Battery Protection IC for Single Cell Pack, SOT-23-6</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP9101C.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP9101CK6</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP9101C.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DO" type="output"/>
+        <pin num="2" name="VM" type="passive"/>
+        <pin num="3" name="CO" type="output"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Battery_Management" part="MCP73844T-820I{slash}MS">
+      <description>IC BATT CNTL LI-ION 1-2CEL 8MSOP</description>
+      <docs>https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/21823D.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73844T-820I{slash}MS</field>
+        <field name="Footprint">Package_SO:MSOP-8_3x3mm_P0.65mm</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/21823D.pdf</field>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/microchip-technology/MCP73844T-820I-MS/593752</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SENSE" type="input"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="STAT1" type="passive"/>
+        <pin num="4" name="EN" type="passive"/>
+        <pin num="5" name="TIMER" type="passive"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="VBAT" type="passive"/>
+        <pin num="8" name="DRV" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small_US">
+      <description>Polarized capacitor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer_US">
+      <description>Potentiometer, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4001">
+      <description>50V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4001</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="CQY99">
+      <description>950nm IR-LED, 5mm</description>
+      <docs>https://www.prtice.info/IMG/pdf/CQY99.pdf</docs>
+      <footprints>
+        <fp>LED*5.0mm*IRGrey*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">CQY99</field>
+        <field name="Footprint">LED_THT:LED_D5.0mm_IRGrey</field>
+        <field name="Datasheet">https://www.prtice.info/IMG/pdf/CQY99.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="My_library" part="BQ29209DRBR">
+      <description>IC BATT PROT LI-ION 2CELL 8SON</description>
+      <docs>https://www.ti.com/lit/ds/symlink/bq29209.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1667434051714&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fbq29209</docs>
+      <footprints>
+        <fp>DRB8_1P6X2P4</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BQ29209DRBR</field>
+        <field name="Footprint">My_footprints:BQ29209DRBR</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/bq29209.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1667434051714&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fbq29209</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VC2" type="input"/>
+        <pin num="2" name="VC1" type="input"/>
+        <pin num="3" name="VC1_CB" type="input"/>
+        <pin num="4" name="CD" type="unspecified"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="*CB_EN" type="unspecified"/>
+        <pin num="7" name="VDD" type="power_in"/>
+        <pin num="8" name="OUT" type="output"/>
+        <pin num="9" name="EPAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LDL1117S50R">
+      <description>Linear Voltage Regulator IC Positive Fixed 1 Output 1.2A SOT-223</description>
+      <docs>https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/0e/5a/00/ca/10/1a/4f/a5/DM00366442/files/DM00366442.pdf/jcr:content/translations/en.DM00366442.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+        <fp>TO?263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LDL1117S50R</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/0e/5a/00/ca/10/1a/4f/a5/DM00366442/files/DM00366442.pdf/jcr:content/translations/en.DM00366442.pdf</field>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/stmicroelectronics/LDL1117S50R/7102072?s=N4IgTCBcDaIDYBM4EZUHYDOBWADAJxAF0BfIA</field>
+        <field name="Part number">LDL1117S50R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="TL5001CDR">
+      <description>Buck, Boost, Flyback Regulator Positive Output Step-Up, Step-Down, Step-Up/Step-Down DC-DC Controller IC 8-SOIC</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tl5001.pdf?ts=1668882726896&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTL5001%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dapp-null-null-GPN_EN-cpc-pf-google-wwe%2526utm_content%253DTL5001%2526ds_k%253DTL5001%2526DCM%253Dyes%2526gclid%253DEAIaIQobChMI15qGr-a6-wIV4ZJbCh1-CgFZEAMYASAAEgK5J_D_BwE%2526gclsrc%253Daw.ds</docs>
+      <footprints>
+        <fp>MSOP*1EP*3x3mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL5001CDR</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tl5001.pdf?ts=1668882726896&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTL5001%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dapp-null-null-GPN_EN-cpc-pf-google-wwe%2526utm_content%253DTL5001%2526ds_k%253DTL5001%2526DCM%253Dyes%2526gclid%253DEAIaIQobChMI15qGr-a6-wIV4ZJbCh1-CgFZEAMYASAAEgK5J_D_BwE%2526gclsrc%253Daw.ds</field>
+        <field name="Part number">LT5001CDR</field>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/texas-instruments/TL5001CDR/276937</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VO" type="passive"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="COMP" type="passive"/>
+        <pin num="4" name="FB" type="passive"/>
+        <pin num="5" name="SCP" type="passive"/>
+        <pin num="6" name="DTC" type="passive"/>
+        <pin num="7" name="RT" type="passive"/>
+        <pin num="8" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Timer" part="TLC555CPWR">
+      <description>Precision Timers, 555 compatible, VSSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm555.pdf</docs>
+      <footprints>
+        <fp>*VSSOP*3.0x3.0mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLC555CPWR</field>
+        <field name="Footprint">My_library:TLC555CPWR</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm555.pdf</field>
+        <field name="Part number">TLC555CPWR</field>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/texas-instruments/TLC555CPWR/381096</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="NC" type="passive"/>
+        <pin num="3" name="TR" type="input"/>
+        <pin num="4" name="NC" type="passive"/>
+        <pin num="5" name="Q" type="output"/>
+        <pin num="6" name="NC" type="passive"/>
+        <pin num="7" name="Reset" type="input"/>
+        <pin num="8" name="CONT" type="input"/>
+        <pin num="9" name="NC" type="passive"/>
+        <pin num="10" name="THR" type="input"/>
+        <pin num="11" name="NC" type="passive"/>
+        <pin num="12" name="DIS" type="input"/>
+        <pin num="13" name="NC" type="passive"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="SI2102A-TP">
+      <description>N-CHANNEL MOSFET</description>
+      <docs>https://www.mccsemi.com/pdf/Products/SI2102A(SOT-323).pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">SI2102A-TP</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-323_SC-70</field>
+        <field name="Datasheet">https://www.mccsemi.com/pdf/Products/SI2102A(SOT-323).pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="SI2301-TP">
+      <description>MOSFET P-CH 20V 2.8A SOT-23</description>
+      <docs>https://www.mccsemi.com/pdf/Products/SI2301(SOT-23).pdf</docs>
+      <footprints>
+        <fp>TO?92L*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">SI2301-TP</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-323_SC-70</field>
+        <field name="Datasheet">https://www.mccsemi.com/pdf/Products/SI2301(SOT-23).pdf</field>
+        <field name="Digikey link">https://www.digikey.ca/en/products/detail/micro-commercial-co/SI2301-TP/1793242</field>
+        <field name="Part number">SI2301-TP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="INDUCTOR">
+      <description>Inductor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Battery_Management">
+      <uri>D:\Software\kicad\6.0\share\kicad\symbols\/Battery_Management.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>D:\Software\kicad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\Software\kicad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>D:\Software\kicad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="LED">
+      <uri>D:\Software\kicad\6.0\share\kicad\symbols\/LED.kicad_sym</uri>
+    </library>
+    <library logical="My_library">
+      <uri>C:/Users/Daniel bilodeau/OneDrive/Documents/Projects/KiCad Library/My_library.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>D:\Software\kicad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>D:\Software\kicad\6.0\share\kicad\symbols\/Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>D:\Software\kicad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="Timer">
+      <uri>D:\Software\kicad\6.0\share\kicad\symbols\/Timer.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>D:\Software\kicad\6.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+    <library logical="pspice">
+      <uri>D:\Software\kicad\6.0\share\kicad\symbols\/pspice.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U2" pin="12" pinfunction="DIS" pintype="input"/>
+      <node ref="U2" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="Reset" pintype="input"/>
+    </net>
+    <net code="2" name="/5V_PWM">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="Q" pintype="output"/>
+    </net>
+    <net code="3" name="/12V">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/12V Boost converter/COMP">
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="COMP" pintype="passive"/>
+    </net>
+    <net code="5" name="/12V Boost converter/FB">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="FB" pintype="passive"/>
+    </net>
+    <net code="6" name="/12V Boost converter/GND2">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="8" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="7" name="/12V Boost converter/VO">
+      <node ref="Q6" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="VO" pintype="passive"/>
+    </net>
+    <net code="8" name="/Bal_batt +">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="9" name="/Bal_batt -">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="10" name="/Bal_batt mid">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="11" name="/Batt +">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U3" pin="7" pinfunction="VBAT" pintype="passive"/>
+    </net>
+    <net code="12" name="/Battery_protections/CO_1">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U4" pin="3" pinfunction="CO" pintype="output"/>
+      <node ref="U5" pin="3" pinfunction="CO" pintype="output"/>
+    </net>
+    <net code="13" name="/Battery_protections/DO_1">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U5" pin="1" pinfunction="DO" pintype="output"/>
+    </net>
+    <net code="14" name="/Battery_protections/VC1">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="VC1" pintype="input"/>
+    </net>
+    <net code="15" name="/Battery_protections/VC1_CB">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="VC1_CB" pintype="input"/>
+    </net>
+    <net code="16" name="/Battery_protections/VC2">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="VC2" pintype="input"/>
+    </net>
+    <net code="17" name="/CHG +">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U6" pin="6" pinfunction="*CB_EN" pintype="unspecified"/>
+    </net>
+    <net code="18" name="/SW_Batt +">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="19" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="6" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U5" pin="6" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U6" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="9" pinfunction="EPAD" pintype="power_in"/>
+    </net>
+    <net code="20" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="THR" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="TR" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="CONT" pintype="input"/>
+    </net>
+    <net code="22" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="TIMER" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(C8-Pad2)">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="24" name="Net-(C9-Pad2)">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="25" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="CD" pintype="unspecified"/>
+    </net>
+    <net code="26" name="Net-(C15-Pad2)">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U7" pin="6" pinfunction="DTC" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="U7" pin="5" pinfunction="SCP" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(C17-Pad2)">
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(C19-Pad2)">
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="STAT1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="Q7" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="SENSE" pintype="input"/>
+    </net>
+    <net code="36" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="U3" pin="8" pinfunction="DRV" pintype="output"/>
+    </net>
+    <net code="37" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(Q4-Pad3)">
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(Q6-Pad2)">
+      <node ref="Q6" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q7" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="EN" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="VM" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="VM" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U6" pin="7" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="45" name="Net-(R13-Pad2)">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U7" pin="7" pinfunction="RT" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(R17-Pad2)">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11" pinfunction="NC" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="NC" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="NC" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="NC" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="NC" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="NC" pintype="passive"/>
+    </net>
+    <net code="48" name="unconnected-(J4-Pad3)">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(J6-Pad1)">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="50" name="unconnected-(J6-Pad2)">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="53" name="unconnected-(U4-Pad4)">
+      <node ref="U4" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U5-Pad4)">
+      <node ref="U5" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U6-Pad8)">
+      <node ref="U6" pin="8" pinfunction="OUT" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>
