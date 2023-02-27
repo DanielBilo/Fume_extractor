@@ -1312,9 +1312,6 @@
     (path "/a43c876c-93ca-4457-bd54-0a8c2951e964/06b8580f-02c4-4268-b25f-529649c5abe8"
       (reference "R12") (unit 1) (value "2K7") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
-    (path "/a43c876c-93ca-4457-bd54-0a8c2951e964/e068081e-5667-42f3-a45a-4d1cf0b2f741"
-      (reference "R13") (unit 1) (value "100") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
     (path "/58f11461-4943-4ae3-b4d8-49e23e57c963/a34352e0-3585-4f98-8f96-4534b54b2b61"
       (reference "R15") (unit 1) (value "113K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
@@ -1338,6 +1335,9 @@
     )
     (path "/58f11461-4943-4ae3-b4d8-49e23e57c963/a61205cf-5496-46a7-a980-188627f98e40"
       (reference "R22") (unit 1) (value "200R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/a43c876c-93ca-4457-bd54-0a8c2951e964/6d95cebc-8d31-4f29-bdad-8f14fa4ed0a0"
+      (reference "R?") (unit 1) (value "100") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/d0cbe6c3-ddca-405e-bd7e-804b30aab2db/ae240746-40b7-4635-9233-047d934a5a3c"
       (reference "RV1") (unit 1) (value "22K") (footprint "Potentiometer_THT:PC16SH-10IP06-223A2020-TA")
