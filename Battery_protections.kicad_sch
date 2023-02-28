@@ -1653,7 +1653,7 @@
   (symbol (lib_id "Device:R_US") (at 148.59 156.21 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6d95cebc-8d31-4f29-bdad-8f14fa4ed0a0)
-    (property "Reference" "R?" (id 0) (at 149.86 152.4 90))
+    (property "Reference" "R13" (id 0) (at 149.86 152.4 90))
     (property "Value" "100" (id 1) (at 149.86 160.02 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 147.574 155.956 90)
       (effects (font (size 1.27 1.27)) hide)
