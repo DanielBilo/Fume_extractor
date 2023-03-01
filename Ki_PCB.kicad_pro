@@ -48,7 +48,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -74,7 +80,7 @@
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
-        "net_conflict": "warning",
+        "net_conflict": "error",
         "npth_inside_courtyard": "ignore",
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
@@ -84,7 +90,7 @@
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
-        "track_dangling": "warning",
+        "track_dangling": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
@@ -97,8 +103,8 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_clearance": 0.127,
+        "min_copper_edge_clearance": 0.3,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -112,8 +118,30 @@
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.3048,
+        0.381,
+        0.508
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.25
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -352,7 +380,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.3048,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
